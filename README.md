@@ -7,6 +7,11 @@
 
 Выполнил: Венгер С.С. группа ИКТО-27
 
+# Компиляция
+```bash
+g++ -o a.out main.cpp device.cpp notebook.cpp
+```
+
 
 # Диаграмма классов
 ![изображение](https://github.com/IKTO2022/laba5-venger/assets/115507005/7beb7def-9bcf-4c9a-ba5a-6427fd9e3e56)
