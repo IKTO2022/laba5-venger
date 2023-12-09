@@ -159,7 +159,9 @@ int main() {
 					int num = notebooks.size() + 1;
 					string oc;
 					cout << "\nВведите название OC (по умолч. Windows): ";
-					if (cin >> oc) {	
+					cin.ignore();
+					getline(cin, oc);
+					if (oc.size()) {	
 						notebooks.push_back(Notebook(num, oc));
 					} else {
 						notebooks.push_back(Notebook(num));
